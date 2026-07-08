@@ -3,23 +3,170 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SFSouvenirs.com | Authentic San Francisco Shopping Guide</title>
-  <meta name="description" content="A guide to authentic San Francisco souvenirs, locally made gifts, local makers, and memorable places to shop.">
+  <title>Side Street Guide | San Francisco</title>
+  <meta name="description" content="Trusted recommendations for authentic San Francisco shopping, local makers, memorable gifts, and places worth your time.">
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #f7f3ec;
+      color: #1f2933;
+    }
+    header {
+      padding: 28px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      letter-spacing: .04em;
+    }
+    .logo {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    nav a {
+      margin-left: 24px;
+      color: #1f2933;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .hero {
+      padding: 90px 7% 110px;
+      max-width: 980px;
+    }
+    .kicker {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: 13px;
+      color: #8a5a2b;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: clamp(48px, 8vw, 92px);
+      line-height: .95;
+      margin: 0 0 28px;
+      font-weight: 500;
+    }
+    .hero p {
+      font-size: 23px;
+      line-height: 1.45;
+      max-width: 720px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 22px;
+      background: #1f2933;
+      color: white;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    section {
+      padding: 64px 7%;
+      border-top: 1px solid #ddd4c8;
+    }
+    h2 {
+      font-size: 38px;
+      font-weight: 500;
+      margin: 0 0 28px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+    .card {
+      background: white;
+      padding: 28px;
+      min-height: 150px;
+      border: 1px solid #e4ddd3;
+    }
+    .card h3 {
+      margin-top: 0;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .card p {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      color: #4b5563;
+    }
+    footer {
+      padding: 40px 7%;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #6b7280;
+    }
+  </style>
 </head>
 <body>
-  <h1>SFSouvenirs.com</h1>
-  <p>Discover what’s worth bringing home from San Francisco.</p>
 
-  <h2>Coming Soon</h2>
-  <p>A visitor’s guide to authentic San Francisco shopping, locally made gifts, local makers, museum shops, neighborhood guides, and memorable souvenirs.</p>
+<header>
+  <div class="logo">Side Street Guide</div>
+  <nav>
+    <a href="#">Explore</a>
+    <a href="#">Shopping</a>
+    <a href="#">Makers</a>
+    <a href="#">About</a>
+  </nav>
+</header>
 
-  <h2>Start Here</h2>
-  <ul>
-    <li>Best San Francisco Souvenirs</li>
-    <li>Fisherman’s Wharf Shopping Guide</li>
-    <li>Made in San Francisco Gifts</li>
-    <li>Golden Gate Bridge Gifts</li>
-    <li>Gifts Under $25</li>
-  </ul>
+<main>
+  <section class="hero">
+    <div class="kicker">San Francisco Edition</div>
+    <h1>Discover what’s worth your time.</h1>
+    <p>Trusted recommendations for authentic shopping, local makers, memorable gifts, and San Francisco experiences worth stepping off the main street for.</p>
+    <a class="button" href="#">Start Exploring</a>
+  </section>
+
+  <section>
+    <h2>How are you visiting?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>First Time Here</h3>
+        <p>Start with the places, shops, and gifts that help you understand the city.</p>
+      </div>
+      <div class="card">
+        <h3>Near Fisherman’s Wharf</h3>
+        <p>Find better shopping, local gifts, coffee, and stops worth your limited time.</p>
+      </div>
+      <div class="card">
+        <h3>Looking for Gifts</h3>
+        <p>Meaningful things to bring home, from small keepsakes to locally made pieces.</p>
+      </div>
+      <div class="card">
+        <h3>Flying Home Soon</h3>
+        <p>Last-minute gifts that are easy to pack and still feel connected to San Francisco.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Featured Guides</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Best San Francisco Souvenirs</h3>
+        <p>What’s actually worth buying, and what to skip.</p>
+      </div>
+      <div class="card">
+        <h3>Fisherman’s Wharf Shopping Guide</h3>
+        <p>A better way to shop one of the city’s busiest visitor districts.</p>
+      </div>
+      <div class="card">
+        <h3>Made in San Francisco Gifts</h3>
+        <p>Where to find work by local artists, makers, and small businesses.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Side Street Guide, San Francisco Edition. Published at SFSouvenirs.com.
+</footer>
+
 </body>
 </html>
